@@ -13,13 +13,16 @@ export default function RootLayout({
   children,
 }: {
   children: React.ReactNode
-}) {
+}): import("C:/Users/Administrator/Desktop/nextjs-tsx/node_modules/@types/react/ts5.0/index").JSX.Element {
   return (
-    <html lang="en">
-      <body className={inter.className}>
-        <header>Hỏi dân IT</header>
-        {children}</body>
-      <footer>little big D</footer>
-    </html>
+    <>
+      <html lang="en">
+        <body className={inter.className}>
+          <header>Wellcome to CRUD Nestjs</header>
+          {children}</body>
+        <footer>Hop u all fucking well :V</footer>
+      </html>
+    </>
+
   )
 }
